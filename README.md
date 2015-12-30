@@ -17,6 +17,14 @@ A Letter Writing API
 
 ## Todo List
 
+### Project
+
+- Rewrite Readme.md to reflect new project purpose as a general letter writing campaign SAAS
+   - Lay out what ENV variables are necessary and what is to be configured in the config file
+- Rewrite API routes and corresponsinf models to remove references to wards and councilors
+- Remove all default values for user model
+- Rewrite config file to be more generic, non specific to OneBrampton
+
 ### Back End
 
 - Review the following:
