@@ -14,34 +14,12 @@ A Letter Writing API
    - [Materialize](materializecss.com/)
    - [AngularJS](https://angularjs.org/)
 
+
 ## Todo List
-
-### Content
-
-_Assignee_: Harpreet Zingh
-
-* Emails of Councillors
-* Phone Numbers of Councillors (to display on "Call Your Councillor Now!" screen)
-
-### Front End
-
-_Assignee_: Sushil Tailor
-
-* Google Maps Integration:
-    1. Create Ward Maps on Google Maps
-    2. Enter Address or Postal Code Data
-    3. Google Maps Checks if address falls into drawn out ward
-    4. Spits back "true" if address falls into ward.
-    5. Ward data gets registered into a service or a controller
-    6. Gets sent to server as part of ward data
-* "Thank You For Supporting the LRT" View
-* 3 Step Application: Pick Ward => Input Info => Click Send
-    * Show which step user is on
 
 ### Back End
 
-_Assignee_: Diogo Pinto
-
+- Review the following:
 - Validation for API requests __(Backburner until post-beta)__
    - Appropriate non-cryptic error messages & codes
    - Prevent foul play on the front end
@@ -60,18 +38,8 @@ _Assignee_: Diogo Pinto
    - ~~Send to both regional and city councillor in the appropriate wards~~ **DONE**
    - ~~BCC city clerk, swing votes, and mayor~~ **DONE**
 
-## In Progress
 
-
-## Done List
-
-### Front End
-
-* Ward Numbers (Ward 1 => Wards 1 & 5) functional
-* Name of City & Regional Councillors (Ward 2 => Doug Whillans & Michael Pallesci) working
-* $http.get API requests to use for letter and councillor data
-* $http.post Requests should feed into API
-* Splitting Sections into Partials
+## Completed
 
 ### Back End
 
@@ -103,17 +71,10 @@ _Assignee_: Diogo Pinto
 - Validation
    - Currently only checks if expected parameters exist and responds with an error if not
 
-## Trash Bin
-
-### Front End
-
-* ~~Build Clickable Ward Map. Clicking on your ward should fill in your form with the following information:~~ Replaced by google maps API.
-    * ~~Ward Map Design~~
-    * ~~Ward Map Functional~~
 
 ## API Documentation
 
-__(Requires Auth):__ Access to API restricted without admin credentials
+**(SECURE)**: Access to API restricted without admin credentials
 
 ### Users
 
