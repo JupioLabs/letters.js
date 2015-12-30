@@ -1,5 +1,5 @@
 # letters.js 0.1.1
-A Letter Writing Campaign for the LRT Route in Brampton
+A Letter Writing API
 
 ### Technologies
 
