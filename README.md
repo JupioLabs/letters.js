@@ -24,7 +24,7 @@ A Letter Writing API
 - [ ] Rewrite API routes and corresponding models to remove references to wards and councilors
 - [ ] Remove all default values for user model
 - [ ] Rewrite config file to be more generic, non specific to OneBrampton
-- [ ] Split off comprehensive API documentation into seperate files
+- [ ] Split off comprehensive API documentation into seperate file/wiki
    - [ ] Write useful examples on main readme.md
    - [ ] Document required fields in API
 
